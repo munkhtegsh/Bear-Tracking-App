@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b93a020f-1ccc-4766-a138-cdc08c9a5d00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lwc/bearList/bearList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/bearList/bearList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lwc/bearList/bearList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/bearList/bearList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lwc/bearTile/bearTile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/bearTile/bearTile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lwc/bearTile/bearTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/bearTile/bearTile.js" afterDir="false" />
-    </list>
+    <list default="true" id="b93a020f-1ccc-4766-a138-cdc08c9a5d00" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -2043,7 +2037,7 @@
       <workItem from="1589693079007" duration="58998000" />
       <workItem from="1590005529188" duration="110000" />
       <workItem from="1590013224569" duration="32000" />
-      <workItem from="1590096507197" duration="62063000" />
+      <workItem from="1590096507197" duration="62434000" />
     </task>
     <servers />
   </component>
