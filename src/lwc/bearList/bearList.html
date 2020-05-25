@@ -2,7 +2,7 @@
     <lightning-card title="Bears" icon-name="utility:animal_and_nature">
         <div class="slds-card__body_inner">
             <!-- Start bear list -->
-            <template if:true={bears}>
+            <template if:true={bears.data}>
                 <lightning-input type="search"
                                  onchange={handleSearchTermChange}
                                  variant="label-hidden"
@@ -12,7 +12,8 @@
                                  value={searchTerm}>
                 </lightning-input>
                 <lightning-layout multiple-rows="true" pull-to-boundary="small">
-                    <template for:each={bears} for:item="bear">
+
+                    <template for:each={bears.data} for:item="bear">
                         <lightning-layout-item key={bear.Id} size="3" class="slds-p-around_x-small">
                             <!-- Start bear tile -->
                             <lightning-card title={bear.Name} class="bear-tile">
@@ -40,10 +41,11 @@
                         This is beary disturbing, we did not find results...
                     </div>
                 </template>
+
             </template>
             <!-- End bear list -->
             <!-- Data failed to load -->
-            <template if:true={error}>
+            <template if:true={bears.error}>
                 <div class="slds-text-color_error">
                     An error occurred while loading the bear list
                 </div>
