@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b93a020f-1ccc-4766-a138-cdc08c9a5d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lwc/bearList/bearList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/bearList/bearList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lwc/bearList/bearList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/bearList/bearList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lwc/bearTile/bearTile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/bearTile/bearTile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lwc/bearTile/bearTile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lwc/bearTile/bearTile.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,10 +240,10 @@
                       <entry key="AURADEFINITIONBUNDLE:SMARTLOCKS" value="1589695194000" />
                       <entry key="AURADEFINITIONBUNDLE:SMARTPRICECALCULATOR" value="1589695195000" />
                       <entry key="AURADEFINITIONBUNDLE:SMARTTHERMOSTAT" value="1589695194000" />
-                      <entry key="LIGHTNINGCOMPONENTBUNDLE:BEARLIST" value="1590382181000" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:BEARLIST" value="1590423527000" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:BEARLOCATION" value="1590375167000" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:BEARSUPERVISOR" value="1590375167000" />
-                      <entry key="LIGHTNINGCOMPONENTBUNDLE:BEARTILE" value="1590362833000" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:BEARTILE" value="1590423979000" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:CANVASSUBSCRIBER" value="1589856446000" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:CHILDCMPEVENT" value="1589853023000" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:CHILDCOMPONENT" value="1589816886000" />
@@ -2041,7 +2043,7 @@
       <workItem from="1589693079007" duration="58998000" />
       <workItem from="1590005529188" duration="110000" />
       <workItem from="1590013224569" duration="32000" />
-      <workItem from="1590096507197" duration="58990000" />
+      <workItem from="1590096507197" duration="62063000" />
     </task>
     <servers />
   </component>
