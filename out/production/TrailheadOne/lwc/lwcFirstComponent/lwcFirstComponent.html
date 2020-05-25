@@ -1,0 +1,13 @@
+<!--
+ - Created by mmunkhba on 5/17/20.
+ -->
+
+<!-- Lwc First Component -->
+<template>
+    <lightning-card title="Hello World">
+        <div class="slds-m-around-medium">
+            <p>Hello, {greeting}</p>
+            <lightning-input label="Name" value={greeting} onchange={changeHandler} ></lightning-input>
+        </div>
+    </lightning-card>
+</template>

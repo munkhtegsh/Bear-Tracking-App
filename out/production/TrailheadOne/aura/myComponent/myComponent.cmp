@@ -1,0 +1,11 @@
+<!--
+ - Created by mmunkhba on 5/16/20.
+ -->
+
+<aura:component implements="flexipage:availableForAllPageTypes" description="myComponent">
+        <lightning:card title="Aura Hello World" iconName="custom:custom30" />
+        <c:lwcHelloWorld name={message} />
+    <c:myFirstComponent />
+    {message}
+    <c:lwcEventBasics />
+</aura:component>

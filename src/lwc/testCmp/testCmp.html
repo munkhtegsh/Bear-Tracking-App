@@ -1,0 +1,80 @@
+<!--
+ - Created by mmunkhba on 5/21/20.
+ -->
+
+<!-- Test Cmp -->
+<!--
+ - Created by mmunkhba on 5/21/20.
+ -->
+
+<!-- Search Pbs Lead -->
+<template>
+    <lightning-card icon-name="standard:lead" title="Choose PBS Leads">
+        <div class="slds-p-horizontal_small">
+
+            <!--
+            <lightning-record-edit-form object-api-name="Lead">
+                <label>Search Lead</label>
+                <lightning-input-field disabled={disabled} field-name="FirstName" id="fieldid" onchange={handleChange}
+                                       required={required} value={leadName} variant="label-hidden">
+                </lightning-input-field>
+            </lightning-record-edit-form>
+            <div if:false={pbsLeads}>
+                <p>0 accounts matches </p>
+            </div>
+            <ul if:true={pbsLeads}>
+                <template for:each={pbsLeads} for:item="pbsLead">
+                    <li key={pbsLead.Id}>{pbsLead.Name}</li>
+
+                </template>
+            </ul>
+            -->
+
+
+        <div class="slds-form-element">
+            <label class="slds-form-element__label" for="combobox-id-13">Search Lead</label>
+            <div class="slds-form-element__control">
+                <div class="slds-combobox_container">
+                    <div class="slds-combobox slds-dropdown-trigger slds-dropdown-trigger_click slds-is-open" aria-expanded="true" aria-haspopup="listbox" role="combobox">
+                        <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+                            <input type="text" class="slds-input slds-combobox__input slds-has-focus" aria-autocomplete="list" aria-controls="listbox-id-15"
+                                   role="textbox" placeholder="Search..." onchange={handleChange} />
+                            <span class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right">
+                            <svg class="slds-icon slds-icon slds-icon_x-small slds-icon-text-default" aria-hidden="true">
+                              <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#search"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <div if:false={pbsLeads}>
+                            <p>0 accounts matches </p>
+                        </div>
+                        <div if:true= {pbsLeads} class="slds-dropdown slds-dropdown_length-with-icon-7 slds-dropdown_fluid" role="listbox">
+                            <ul  class="slds-listbox slds-listbox_vertical" role="presentation">
+                                <template for:each={pbsLeads} for:item="pbsLead">
+                                <li key={pbsLead.Id} role="presentation" class="slds-listbox__item">
+                                    <div class="slds-media slds-listbox__option slds-listbox__option_entity slds-listbox__option_has-meta" role="option">
+                                    <span class="slds-media__figure slds-listbox__option-icon">
+                                      <span class="slds-icon_container slds-icon-standard-account">
+                                        <svg class="slds-icon slds-icon_small" aria-hidden="true">
+                                          <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#account"></use>
+                                        </svg>
+                                      </span>
+                                    </span>
+                                    <span class="slds-media__body">
+                                      <span class="slds-listbox__option-text slds-listbox__option-text_entity">{pbsLead.Name}</span>
+                                      <span class="slds-listbox__option-meta slds-listbox__option-meta_entity">Lead • Burlington, NC</span>
+                                    </span>
+                                    </div>
+                                </li>
+                                </template>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </lightning-card>
+
+</template>

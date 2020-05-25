@@ -1,0 +1,7 @@
+<!--
+ - Created by mmunkhba on 5/23/20.
+ -->
+
+<aura:component description="isUrlAddressibleExample1">
+    helloWorld
+</aura:component>

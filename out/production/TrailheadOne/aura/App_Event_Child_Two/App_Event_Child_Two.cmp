@@ -1,0 +1,9 @@
+<aura:component >
+    <aura:attribute name="stdName" type="String" />
+    <aura:attribute name="stdCity" type="String" />
+    <aura:handler event="c:Event_One" action="{!c.invoke}" />
+    =========================
+    Component 2 <br/><br/>
+    City: {!v.stdCity} <br/><br/>
+    StdName: {!v.stdName}
+</aura:component>

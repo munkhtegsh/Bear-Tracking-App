@@ -1,0 +1,22 @@
+<!--
+ - Created by mmunkhba on 5/19/20.
+ -->
+
+<!-- Fetch Contact Via Apex -->
+<template>
+    <lightning-card title="All contact records">
+        <ul>
+            <template if:true={responseReceived}>
+                <template for:each={contacts.data} for:item="contact">
+                <li key={contact.id}>
+                    <div class="slds-p-around_medium lgc-bg">
+                        <lightning-tile label={contact.LastName}>
+                            <p class="slds-truncate" title={contact.Phone}></p>
+                        </lightning-tile>
+                    </div>
+                </li>
+                </template>
+            </template>
+        </ul>
+    </lightning-card>
+</template>
